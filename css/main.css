@@ -34,7 +34,7 @@ nav{
   background: #e7a158;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
   .wrapper{
     display: grid;
     grid-template-columns: 1fr;
