@@ -1,4 +1,5 @@
 * {
+  font-family: "Roboto Condensed", sans-serif;
   padding: 0;
   margin: 0;
 }
@@ -12,16 +13,19 @@
 }
 
 nav {
+  color: white;
   background: #e7a158;
   grid-column: 1/4;
 }
 
 .hello {
+  color: white;
   background: #f4c3a0;
   grid-column: 1/4;
 }
 
 .kurs {
+  color: white;
   background: #e7a158;
   grid-column: 1/4;
 }
@@ -35,7 +39,8 @@ nav {
 }
 
 .head {
-  background-image: image("..");
+  background: url(../image/fonhead.jpg) center 100% no-repeat;
+  background-size: cover;
 }
 
 @media screen and (max-width: 450px) {
