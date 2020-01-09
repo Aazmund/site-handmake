@@ -11,9 +11,10 @@
   grid-gap: 3em;
 }
 
-nav{
+.menu{
   background: #e7a158;
   grid-column: 1/4;
+  padding-left: 70%;
 }
 
 .hello{

@@ -1,0 +1,23 @@
+.menu ul{
+  list-style: none;
+}
+
+.menu > ul{
+  display: flex;
+}
+
+.menu > ul li a {
+  padding-right: 25px;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.menu li ul{
+  display: none;
+}
+
+.menu li:hover > ul{
+  display: block;
+  background: #202429;
+}
