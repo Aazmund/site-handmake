@@ -34,6 +34,10 @@ nav {
   background: #e7a158;
 }
 
+.head {
+  background-image: image("..");
+}
+
 @media screen and (max-width: 450px) {
   .wrapper {
     display: grid;
