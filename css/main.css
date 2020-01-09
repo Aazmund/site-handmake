@@ -12,11 +12,6 @@
   grid-gap: 3em;
 }
 
-.menu{
-  grid-column: 1/4;
-  padding-left: 70%;
-}
-
 
 .hello {
   color: white;
