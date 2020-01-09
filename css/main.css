@@ -14,28 +14,17 @@
 
 nav {
   color: white;
-  background: #e7a158;
   grid-column: 1/4;
 }
 
 .hello {
   color: white;
-  background: #f4c3a0;
   grid-column: 1/4;
 }
 
 .kurs {
   color: white;
-  background: #e7a158;
   grid-column: 1/4;
-}
-
-.block {
-  background: #f4c3a0;
-}
-
-.blockd {
-  background: #e7a158;
 }
 
 .head {
