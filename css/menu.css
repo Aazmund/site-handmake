@@ -18,6 +18,8 @@
 }
 
 .menu li:hover > ul{
+  margin-top: 10px;
   display: block;
+  position: absolute;
   background: #202429;
 }
