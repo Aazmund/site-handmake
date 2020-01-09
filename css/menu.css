@@ -1,6 +1,4 @@
-<<<<<<< Updated upstream
-=======
-.menu{
+.menu {
   padding-top: 45px;
   grid-column: 1/4;
   padding-left: 60%;
@@ -8,11 +6,11 @@
   font-weight: bold;
 }
 
-.menu ul{
+.menu ul {
   list-style: none;
 }
 
-.menu > ul{
+.menu > ul {
   display: flex;
 }
 
@@ -23,14 +21,13 @@
   color: white;
 }
 
-.menu li ul{
+.menu li ul {
   display: none;
 }
 
-.menu li:hover > ul{
+.menu li:hover > ul {
   margin-top: 10px;
   display: block;
   position: absolute;
   background: #202429;
 }
->>>>>>> Stashed changes

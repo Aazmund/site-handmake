@@ -12,14 +12,6 @@
   grid-gap: 3em;
 }
 
-<<<<<<< Updated upstream
-nav {
-  color: white;
-  grid-column: 1/4;
-}
-
-=======
->>>>>>> Stashed changes
 .hello {
   color: white;
   grid-column: 1/4;
