@@ -26,8 +26,14 @@
 }
 
 .menu li:hover > ul {
-  margin-top: 10px;
   display: block;
   position: absolute;
+  padding: 10px;
   background: #202429;
+  border-radius: 5px;
+}
+
+.menu a:hover{
+  -webkit-transition: 0.3s;
+  color: #DE3C39;
 }
