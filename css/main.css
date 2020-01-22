@@ -12,7 +12,6 @@
   grid-gap: 3em;
 }
 
-
 .hello {
   color: white;
   grid-column: 1/4;
@@ -28,33 +27,32 @@
   grid-column: 1/4;
 }
 
-.kurs input{
+.kurs input {
   padding-right: 10px;
   height: 40px;
   width: 200px;
   border-radius: 5px;
-  margin-top: 5px;
+  margin-top: 35px;
 }
 
 .head {
   background: url(../image/fonhead.jpg) center 100% no-repeat;
   background-size: cover;
-  
 }
 
-.intro{
+.intro {
   padding-top: 35px;
   text-align: center;
   background: #202429;
   color: white;
 }
 
-.intro > p{
+.intro > p {
   font-size: 20pt;
   font-weight: bold;
 }
 
-.intro_blocks{
+.intro_blocks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-rows: minmax(100px, auto);
@@ -63,8 +61,38 @@
   padding-right: 50px;
 }
 
+.footer {
+  background: #202429;
+  text-align: center;
+  color: white;
+}
+
+.fblock > p {
+  text-align: left;
+}
+
+.obrsv input {
+  padding-right: 10px;
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.map {
+}
+
+.fblocks {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding-top: 35px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 @media screen and (max-width: 500px) {
-  .wrapper{
+  .wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: minmax(100px, auto);
