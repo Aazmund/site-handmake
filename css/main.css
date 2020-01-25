@@ -114,9 +114,6 @@
 }
 
 .fblocks {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
   padding-top: 35px;
   padding-left: 50px;
   padding-right: 50px;
