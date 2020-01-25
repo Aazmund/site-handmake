@@ -45,6 +45,7 @@
   text-align: center;
   background: #202429;
   color: white;
+  padding-bottom: 20px;
 }
 
 .intro > p {
@@ -59,6 +60,36 @@
   padding-top: 35px;
   padding-left: 50px;
   padding-right: 50px;
+}
+
+.kurses > p{
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.services > p{
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.works > p{
+  font-size: 20pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+.kurses{
+  padding: 15px;
+}
+
+.services{
+  padding: 15px;
+}
+
+.works{
+  padding: 15px;
 }
 
 .footer {
@@ -101,18 +132,24 @@
     padding: 15px;
   }
 
-  nav {
-    background: #e7a158;
+  .menu{
     grid-column: 1/2;
   }
 
   .hello {
-    background: #f4c3a0;
     grid-column: 1/2;
   }
 
   .kurs {
-    background: #e7a158;
     grid-column: 1/2;
+  }
+
+  .intro_blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    padding-top: 35px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
