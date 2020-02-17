@@ -62,12 +62,13 @@
   padding-right: 50px;
 }
 
-.kurses > p {
+.kurses > p{
   font-size: 20pt;
   font-weight: bold;
   text-align: center;
 }
 
+<<<<<<< HEAD
 .slider_image{
   padding-top: 50px;
   height: 200px;
@@ -95,27 +96,29 @@
   height: 0;
 } */
 
+=======
+>>>>>>> parent of 339936c... turupuru
 .services > p{
   font-size: 20pt;
   font-weight: bold;
   text-align: center;
 }
 
-.works > p {
+.works > p{
   font-size: 20pt;
   font-weight: bold;
   text-align: center;
 }
 
-.kurses {
+.kurses{
   padding: 15px;
 }
 
-.services {
+.services{
   padding: 15px;
 }
 
-.works {
+.works{
   padding: 15px;
 }
 
@@ -125,9 +128,8 @@
   color: white;
 }
 
-.fblock {
-  display: flex;
-  justify-content: center;
+.fblock > p {
+  text-align: left;
 }
 
 .obrsv input {
@@ -139,10 +141,6 @@
 }
 
 .map {
-  background: url(../image/map.jpg);
-  border-radius: 10px;
-  height: 300px;
-  width: 500px;
 }
 
 .fblocks {
@@ -162,7 +160,7 @@
   }
 
   .hello {
-    grid-column: 1/4;
+    grid-column: 1/2;
     font-size: 14pt;
     font-weight: normal;
   }
@@ -170,12 +168,15 @@
   .kurs {
     grid-column: 1/2;
   }
+<<<<<<< HEAD
    .kurs input {
     height: 35px;
     width: 200px;
     text-align: center;
 
    }
+=======
+>>>>>>> parent of 339936c... turupuru
 
   .intro_blocks {
     display: grid;
@@ -184,10 +185,5 @@
     padding-top: 35px;
     padding-left: 50px;
     padding-right: 50px;
-  }
-
-  .map {
-    width: 400px;
-    height: 400px;
   }
 }
