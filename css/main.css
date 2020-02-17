@@ -129,12 +129,10 @@
     padding: 15px;
   }
 
-  .menu{
-    grid-column: 1/2;
-  }
-
   .hello {
     grid-column: 1/2;
+    font-size: 14pt;
+    font-weight: normal;
   }
 
   .kurs {

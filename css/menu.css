@@ -1,7 +1,7 @@
 .menu{
   padding-top: 45px;
   grid-column: 1/4;
-  padding-left: 65%;
+  /* padding-left: 65%; */
   font-size: 17pt;
   font-weight: bold;
 }
@@ -36,4 +36,10 @@
 .menu a:hover{
   -webkit-transition: 0.3s;
   color: #DE3C39;
+}
+
+@media screen and (max-width: 500px) {
+  .menu{
+    font-size: 14pt;
+  }
 }
