@@ -62,17 +62,17 @@
   padding-right: 50px;
 }
 
-.kurses > p{
+.kurses > p {
   font-size: 20pt;
   font-weight: bold;
   text-align: center;
 }
 
-.slider_image{
+.slider_image {
   padding-top: 50px;
   height: 200px;
   width: 300px;
-  background: url("../image/question.png") center 100% no-repeat;
+  background: url(../image/question.png) center 100% no-repeat;
   background-size: cover;
 }
 
@@ -83,7 +83,7 @@
   font-weight: bold;
 }
 
-.slider_comp{
+.slider_comp {
   height: 250px;
   background-color: rgb(242, 242, 242);
   display: flex;
@@ -95,27 +95,27 @@
   height: 0;
 } */
 
-.services > p{
+.services > p {
   font-size: 20pt;
   font-weight: bold;
   text-align: center;
 }
 
-.works > p{
+.works > p {
   font-size: 20pt;
   font-weight: bold;
   text-align: center;
 }
 
-.kurses{
+.kurses {
   padding: 15px;
 }
 
-.services{
+.services {
   padding: 15px;
 }
 
-.works{
+.works {
   padding: 15px;
 }
 
@@ -125,8 +125,9 @@
   color: white;
 }
 
-.fblock > p {
-  text-align: left;
+.fblock {
+  display: flex;
+  justify-content: center;
 }
 
 .obrsv input {
@@ -138,6 +139,10 @@
 }
 
 .map {
+  background: url(../image/map.jpg);
+  border-radius: 10px;
+  height: 300px;
+  width: 500px;
 }
 
 .fblocks {
@@ -165,12 +170,11 @@
   .kurs {
     grid-column: 1/2;
   }
-   .kurs input {
+  .kurs input {
     height: 35px;
     width: 200px;
     text-align: center;
-
-   }
+  }
 
   .intro_blocks {
     display: grid;
@@ -179,5 +183,10 @@
     padding-top: 35px;
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  .map {
+    width: 400px;
+    height: 400px;
   }
 }
