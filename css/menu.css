@@ -34,7 +34,7 @@
 }
 
 .menu a:hover{
-  -webkit-transition: 0.3s;
+  transition: 0.3s;
   color: #DE3C39;
 }
 
