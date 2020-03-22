@@ -79,7 +79,7 @@
 .slider_grid {
   margin-left: 10%;
   margin-right: 10%;
-  height: 300px;
+  height: 350px;
   background-color: rgb(242, 242, 242);
   display: grid;
   grid-template-columns: 1fr 2fr;
