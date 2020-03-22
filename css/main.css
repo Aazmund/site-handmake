@@ -93,34 +93,34 @@
   grid-row-end: 4;
 }
 
-.slide_text p{
+.slide_text p {
   font-size: 16pt;
   padding-top: 1em;
 }
 
-.link a{
+.link a {
   text-decoration: none;
   padding-top: 10px;
-  color: #DE3C39;
+  color: #de3c39;
 }
 
-.kurs_name{
+.kurs_name {
   padding-top: 50px;
   font-size: 20pt;
   font-weight: bold;
 }
 
-.price_wrapper{
+.price_wrapper {
   display: flex;
 }
 
-.slide_price{
+.slide_price {
   padding-right: 25px;
 }
 
 .price {
   font-size: 16pt;
-  color: #DE3C39;
+  color: #de3c39;
 }
 
 .services > p {
@@ -153,7 +153,7 @@
   color: white;
 }
 
-.footer  h2{
+.footer h2 {
   padding-top: 30px;
 }
 
