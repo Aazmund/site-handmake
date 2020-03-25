@@ -37,38 +37,18 @@ hr {
   height: 2px;
 }
 
-.footer {
-  background: #202429;
-  text-align: center;
-  color: white;
-}
-
-.footer h2 {
-  padding-top: 30px;
-}
-
-.fblock {
-  display: flex;
+.documents {
+  display: grid;
   justify-content: center;
 }
 
-.obrsv input {
-  padding-right: 10px;
-  height: 40px;
-  width: 200px;
+.documents a {
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #de3c39;
+  background-color: #de3c39;
+  color: white;
   border-radius: 5px;
-  margin-top: 25px;
-}
-
-.map {
-  background: url(../image/map.jpg);
-  border-radius: 10px;
-  height: 300px;
-  width: 500px;
-}
-
-.fblocks {
-  padding-top: 35px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 5px;
+  margin: 5px;
 }
