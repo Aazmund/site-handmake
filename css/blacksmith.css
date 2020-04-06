@@ -16,6 +16,7 @@
   
   pre{
       text-align: center;
+      font-size: 24px;
   }
   
   
@@ -60,6 +61,7 @@
     width: 200px;
     border-radius: 5px;
     margin-top: 25px;
+    font-size: 24px;
   }
   
   .map {

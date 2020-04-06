@@ -11,6 +11,8 @@
       href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="slick/slick.css" />
+    <link rel="stylesheet" href="slick/slick-theme.css" />
   </head>
   <body>
     <div class="head">
@@ -396,11 +398,23 @@
       </div>
 
       <div class="services" id="services">
-        <p>Наши строительные услуги</p>
+        <p>Наши услуги</p>
+        <pre class="services__text">
+          Мы выполняем как простые ремонты, так и делаем любойэксклюзив.
+          Мы делаем многое такое, что не может никто в нашей стране.
+          Но главное, что многое сделанное нами только в одном экземпляре и ни у кого другого такого нет.
+        </pre>
       </div>
 
       <div class="works" id="works">
         <p>Наши работы</p>
+        <div class="sl">
+          <div class="sl__slide"><img src="image/slick/1.JPG" alt=""></div>
+          <div class="sl__slide"><img src="image/slick/2.JPG" alt=""></div>
+          <div class="sl__slide"><img src="image/slick/3.jpg" alt=""></div>
+          <div class="sl__slide"><img src="image/slick/4.jpg" alt=""></div>
+          <div class="sl__slide"><img src="image/slick/5.JPG" alt=""></div>
+        </div>
       </div>
     </div>
 
@@ -435,8 +449,8 @@
     </footer>
     <script>
       "use strict";
-      var multiItemSlider = (function() {
-        return function(selector, config) {
+      var multiItemSlider = (function () {
+        return function (selector, config) {
           var _mainElement = document.querySelector(selector), // основный элемент блока
             _sliderWrapper = _mainElement.querySelector(".slider__wrapper"), // обертка для .slider-item
             _sliderItems = _mainElement.querySelectorAll(".slider__item"), // элементы (.slider-item)
@@ -454,16 +468,16 @@
             _step = (_itemWidth / _wrapperWidth) * 100, // величина шага (для трансформации)
             _items = []; // массив элементов
           // наполнение массива _items
-          _sliderItems.forEach(function(item, index) {
+          _sliderItems.forEach(function (item, index) {
             _items.push({ item: item, position: index, transform: 0 });
           });
 
           var position = {
             getMin: 0,
-            getMax: _items.length - 1
+            getMax: _items.length - 1,
           };
 
-          var _transformItem = function(direction) {
+          var _transformItem = function (direction) {
             if (direction === "right") {
               if (
                 _positionLeftItem + _wrapperWidth / _itemWidth - 1 >=
@@ -510,7 +524,7 @@
           };
 
           // обработчик события click для кнопок "назад" и "вперед"
-          var _controlClick = function(e) {
+          var _controlClick = function (e) {
             if (e.target.classList.contains("slider__control")) {
               e.preventDefault();
               var direction = e.target.classList.contains(
@@ -522,9 +536,9 @@
             }
           };
 
-          var _setUpListeners = function() {
+          var _setUpListeners = function () {
             // добавление к кнопкам "назад" и "вперед" обрботчика _controlClick для событя click
-            _sliderControls.forEach(function(item) {
+            _sliderControls.forEach(function (item) {
               item.addEventListener("click", _controlClick);
             });
           };
@@ -533,19 +547,22 @@
           _setUpListeners();
 
           return {
-            right: function() {
+            right: function () {
               // метод right
               _transformItem("right");
             },
-            left: function() {
+            left: function () {
               // метод left
               _transformItem("left");
-            }
+            },
           };
         };
       })();
 
       var slider = multiItemSlider(".slider");
     </script>
+    <script src="js/jQuery.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <script src="js/sl.js"></script>
   </body>
 </html>
