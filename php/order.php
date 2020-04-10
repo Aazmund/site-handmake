@@ -1,7 +1,5 @@
 <?php
 
-$back = $_SERVER['HTTP_REFERER'];
-
 function validate_number($tel){
   $tel = trim((string)$tel);
   if (!$tel) return false;
@@ -14,16 +12,15 @@ function validate_number($tel){
 
   $name = $_POST['usr_name'];
   $phone = $_POST['usr_phone'];
-  $course = $_POST['usr_course'];
 
   if(!validate_number($phone)){
     echo "<html><head><meta http-equiv='Refresh' content='0; URL=".$_SERVER['HTTP_REFERER']."'></head></html><script> alert('Некорректный номер телефона')</script>";
   }else{
     $phone = validate_number($phone);
-    $message = 'Запись на курс: '. $course. ' Имя: '. $name. ' Номер телефона: '. $phone;
+    $message = 'Заявка на звонок '.' Имя: '. $name. ' Номер телефона: '. $phone;
 
     $to = "aazmundz@gmail.com";
-    $subject = "Запись на курс";
+    $subject = "Заказ на звонок";
     $headerss = "Date: ".date('D, d M Y h:i:s O')."\r\n";
 
     if (mail($to, $subject, $message, $headerss)) {
@@ -32,6 +29,6 @@ function validate_number($tel){
       echo "something wrong";
     }
 
-    // echo $message;
   }
+
  ?>
