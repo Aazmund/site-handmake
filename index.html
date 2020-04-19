@@ -41,11 +41,11 @@
             экологичных домов.
           </p>
         </div>
-        <form class="kurs" action="index.html" method="post">
+        <form class="kurs" action="php/send.php" method="post">
           <h1>Запишись на курсы сейчас!</h1>
           <input
             type="text"
-            name=""
+            name="usr_name"
             placeholder="Ваше имя"
             value=""
             required
@@ -53,7 +53,7 @@
           />
           <input
             type="tel"
-            name=""
+            name="usr_phone"
             placeholder="Ваш телефон"
             value=""
             required
@@ -61,17 +61,19 @@
           <input
             list="list"
             type="text"
-            name=""
+            name="usr_course"
             placeholder="Выберите курс"
             value=""
             required
           />
           <datalist id="list">
-            <option value="1WFgf"></option>
-            <option value="efgef"></option>
-            <option value="fffSDF"></option>
-            <option value="srasdf"></option>
-            <option value="sgfwDF"></option>
+            <option value="Курсы фермеров"></option>
+            <option value="Курс по каркасному строительству домов"></option>
+            <option value="Курсы кузнецов"></option>
+            <option value="Курсы прорабов"></option>
+            <option value="Курсы антиквариата"></option>
+            <option value="Курсы печников"></option>
+            <option value="Курсы по обучению электромонтажу"></option>
           </datalist>
           <input type="submit" name="" value="Записаться" />
         </form>
@@ -409,20 +411,32 @@
       <div class="works" id="works">
         <p>Наши работы</p>
         <div class="sl">
-          <div class="sl__slide"><img src="image/slick/1.JPG" alt=""></div>
-          <div class="sl__slide"><img src="image/slick/2.JPG" alt=""></div>
-          <div class="sl__slide"><img src="image/slick/3.jpg" alt=""></div>
-          <div class="sl__slide"><img src="image/slick/4.jpg" alt=""></div>
-          <div class="sl__slide"><img src="image/slick/5.JPG" alt=""></div>
+          <div class="sl__slide"><img src="image/slick/1.JPG" alt="" /></div>
+          <div class="sl__slide"><img src="image/slick/2.JPG" alt="" /></div>
+          <div class="sl__slide"><img src="image/slick/3.jpg" alt="" /></div>
+          <div class="sl__slide"><img src="image/slick/4.jpg" alt="" /></div>
+          <div class="sl__slide"><img src="image/slick/5.JPG" alt="" /></div>
         </div>
       </div>
     </div>
 
     <footer class="footer" id="footer">
-      <form class="obrsv" action="index.html" method="POST">
+      <form class="obrsv" action="php/order.php" method="POST">
         <h2>Остались вопросы? Закажите обратный звонок!</h2>
-        <input type="text" name="" placeholder="Ваше имя" value="" required />
-        <input type="tel" name="" placeholder="Ваш телефон" value="" required />
+        <input
+          type="text"
+          name="usr_name"
+          placeholder="Ваше имя"
+          value=""
+          required
+        />
+        <input
+          type="tel"
+          name="usr_phone"
+          placeholder="Ваш телефон"
+          value=""
+          required
+        />
         <input type="submit" name="" value="Заказать" />
       </form>
       <div class="fblocks">

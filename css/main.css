@@ -154,17 +154,19 @@
 
 .works {
   padding: 15px;
-  background: #202429;
+  background: rgb(116, 115, 115);
 }
 
 .sl {
   max-width: 900px;
   margin: 20px auto;
   
+  
 }
 
 .sl__slide img{
-  height: 700px;
+  height: 500px;
+  
 }
 
 .footer {
