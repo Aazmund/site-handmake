@@ -17,6 +17,18 @@
   background-size: cover;
 }
 
+.text{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .footer {
   background: #202429;
   text-align: center;
