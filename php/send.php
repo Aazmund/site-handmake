@@ -1,5 +1,5 @@
 <?php
-
+header('Content-Type: text/html; charset=utf-8');
 $back = $_SERVER['HTTP_REFERER'];
 
 function validate_number($tel){

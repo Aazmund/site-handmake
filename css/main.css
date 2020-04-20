@@ -12,6 +12,10 @@
   grid-gap: 3em;
 }
 
+.menu{
+    grid-column: 1/4;
+}
+
 .hello {
   color: white;
   grid-column: 1/4;
@@ -126,7 +130,6 @@
 
 .services > p {
   font-size: 20pt;
-  font-weight: bold;
   text-align: center;
 }
 
@@ -135,7 +138,9 @@
   font-size: 24px;
   margin-top: 20px;
   padding-top: 20px;
-  border: solid 2px #de3c39;
+  border-top: 2px solid #de3c39;
+  border-bottom: 2px solid #de3c39;
+  /* border: solid 2px #de3c39; */
 }
 
 .works > p {
@@ -203,24 +208,27 @@
 }
 
 @media screen and (max-width: 500px) {
-  .wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    padding: 20px;
-    grid-gap: 3em;
-    padding: 15px;
+
+  *{
+    padding: 0;
+    margin: 0;
   }
 
-  .hello {
-    grid-column: 1/2;
-    font-size: 14pt;
-    font-weight: normal;
+  .wrapper{
+    display: block;
+    padding: 0;
+    margin: 0;
   }
 
-  .kurs {
-    grid-column: 1/2;
+  .hello{
+    padding: 10px;
+    font-style: italic;
   }
+
+  .kurs{
+    display: none;
+  }
+
   .kurs input {
     height: 35px;
     width: 200px;
@@ -236,8 +244,41 @@
     padding-right: 50px;
   }
 
-  .map {
-    width: 400px;
-    height: 400px;
+  .block{
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+
+  .intro_blocks p {
+    font-size: 16pt;
+  }
+
+  .slide_image{
+    display: none;
+  }
+
+  .slider_grid{
+    display: block;
+    height: 500px;
+  }
+
+  .kurs_name{
+    padding-bottom: 5px;
+  }
+
+  .slide_link{
+    padding-bottom: 5px;
+  }
+
+  .price_wrapper{
+    display: none;
+  }
+
+  .sl{
+    max-width: 450px;
+  }
+
+  .map{
+    display: none;
   }
 }
