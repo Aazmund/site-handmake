@@ -62,8 +62,6 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-rows: minmax(100px, auto);
-  padding-top: 35px;
-  padding-left: 50px;
   padding-right: 50px;
 }
 
@@ -165,13 +163,13 @@
 .sl {
   max-width: 900px;
   margin: 20px auto;
-  
-  
+
+
 }
 
 .sl__slide img{
   height: 500px;
-  
+
 }
 
 .footer {
