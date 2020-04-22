@@ -39,6 +39,7 @@
 
 @media screen and (max-width: 500px) {
   .menu{
+    display: block;
     font-size: 20pt;
     padding-top: 5px;
     background-color: #202429;
