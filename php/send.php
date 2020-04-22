@@ -22,7 +22,7 @@ function validate_number($tel){
     $phone = validate_number($phone);
     $message = 'Запись на курс: '. $course. ' Имя: '. $name. ' Номер телефона: '. $phone;
 
-    $to = "aazmundz@gmail.com";
+    $to = "logunov-i-ko77@mail.ru";
     $subject = "Запись на курс";
     $headerss = "Date: ".date('D, d M Y h:i:s O')."\r\n";
 

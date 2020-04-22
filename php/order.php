@@ -21,7 +21,7 @@ function validate_number($tel){
     $phone = validate_number($phone);
     $message = 'Заявка на звонок '.' Имя: '. $name. ' Номер телефона: '. $phone;
 
-    $to = "aazmundz@gmail.com";
+    $to = "logunov-i-ko77@mail.ru";
     $subject = "Заказ на звонок";
     $headerss = "Date: ".date('D, d M Y h:i:s O')."\r\n";
 
