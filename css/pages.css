@@ -54,11 +54,9 @@
   font-size: 24px;
 }
 
-.map {
-  background: url(../image/map.jpg);
-  border-radius: 10px;
-  height: 300px;
-  width: 500px;
+.map iframe{
+  border-radius: 25px;
+  max-width: 100%;
 }
 
 .fblocks {
