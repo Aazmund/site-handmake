@@ -12,8 +12,8 @@
   grid-gap: 3em;
 }
 
-.menu{
-    grid-column: 1/4;
+.menu {
+  grid-column: 1/4;
 }
 
 .hello {
@@ -157,20 +157,22 @@
 
 .works {
   padding: 15px;
-  background: rgb(116, 115, 115);
+  background: white;
 }
 
 .sl {
-  max-width: 900px;
+  max-width: 700px;
   margin: 20px auto;
-
-
 }
 
-.sl__slide img{
+.sl__slide img {
   height: 500px;
-
 }
+
+.sl__slide{
+  text-align: center;
+}
+
 
 .footer {
   background: #202429;
@@ -210,24 +212,23 @@
 }
 
 @media screen and (max-width: 500px) {
-
-  *{
+  * {
     padding: 0;
     margin: 0;
   }
 
-  .wrapper{
+  .wrapper {
     display: block;
     padding: 0;
     margin: 0;
   }
 
-  .hello{
+  .hello {
     padding: 10px;
     font-style: italic;
   }
 
-  .kurs{
+  .kurs {
     display: none;
   }
 
@@ -246,7 +247,7 @@
     padding-right: 50px;
   }
 
-  .block{
+  .block {
     padding-bottom: 10px;
     padding-left: 10px;
   }
@@ -255,32 +256,32 @@
     font-size: 16pt;
   }
 
-  .slide_image{
+  .slide_image {
     display: none;
   }
 
-  .slider_grid{
+  .slider_grid {
     display: block;
     height: 500px;
   }
 
-  .kurs_name{
+  .kurs_name {
     padding-bottom: 5px;
   }
 
-  .slide_link{
+  .slide_link {
     padding-bottom: 5px;
   }
 
-  .price_wrapper{
+  .price_wrapper {
     display: none;
   }
 
-  .sl{
+  .sl {
     max-width: 450px;
   }
 
-  .map{
+  .map {
     display: none;
   }
 }
