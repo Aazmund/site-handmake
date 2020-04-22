@@ -198,11 +198,10 @@
   font-size: 24px;
 }
 
-.map {
-  background: url(../image/map.jpg);
-  border-radius: 10px;
-  height: 300px;
-  width: 500px;
+.map iframe{
+  border-radius: 25px;
+  max-width: 100%;
+  min-height: 100%;
 }
 
 .fblocks {
@@ -279,9 +278,5 @@
 
   .sl {
     max-width: 450px;
-  }
-
-  .map {
-    display: none;
   }
 }
